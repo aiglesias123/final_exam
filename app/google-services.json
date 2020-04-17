@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1015779218639",
+    "firebase_url": "https://finalexam-b7230.firebaseio.com",
+    "project_id": "finalexam-b7230",
+    "storage_bucket": "finalexam-b7230.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015779218639:android:767dd449d8b04e8b28d3ba",
+        "android_client_info": {
+          "package_name": "com.example.final_exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015779218639-epvpli34mv1ud25uu4hq6ctt4kadptmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.final_exam",
+            "certificate_hash": "00dc1354649fe9fe78aaca428ac6422143b93846"
+          }
+        },
+        {
+          "client_id": "1015779218639-uegov0d1pd3u6mr4u5bq9hslgk8vul9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxlOE-EjORRvZjNspwf4kJl_Y5Ra15cXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015779218639-uegov0d1pd3u6mr4u5bq9hslgk8vul9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
