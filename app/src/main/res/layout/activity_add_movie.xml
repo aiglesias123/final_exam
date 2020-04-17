@@ -52,27 +52,28 @@
         app:layout_constraintTop_toBottomOf="@+id/movieDescription" />
 
     <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBackButton"
+        android:text="@string/back_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addMovieButton"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <Button
         android:id="@+id/addMovieButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="218dp"
+        android:layout_marginTop="144dp"
         android:onClick="onClickAddButton"
         android:text="@string/add_movie_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/movieImdbLink"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:onClick="onClickBackButton"
-        android:text="@string/back_button"
-        app:layout_constraintEnd_toEndOf="@+id/addMovieButton"
-        app:layout_constraintTop_toBottomOf="@+id/addMovieButton" />
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
