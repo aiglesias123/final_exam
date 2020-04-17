@@ -7,26 +7,34 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/makeMovie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="232dp" />
-
-    <Button
         android:id="@+id/viewMovies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="317dp" />
+        android:layout_marginBottom="327dp"
+        android:text="@string/goto_view_movies_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/makeMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:onClick="onClickAddMovies"
+        android:text="@string/goto_add_movies_button"
+        app:layout_constraintBottom_toTopOf="@+id/viewMovies"
+        app:layout_constraintEnd_toEndOf="@+id/viewMovies" />
 
     <TextView
         android:id="@+id/appTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="173dp"
-        tools:layout_editor_absoluteY="60dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/app_title" />
 </androidx.constraintlayout.widget.ConstraintLayout>

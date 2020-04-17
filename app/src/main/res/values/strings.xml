@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">final_exam</string>
+    <string name="app_title">Movie watch list app</string>
+    <string name="goto_add_movies_button">Add a movie</string>
+    <string name="goto_view_movies_button">View movies</string>
+    <string name="add_movie_text">Add movie:</string>
+    <string name="movie_title_hint">Title</string>
+    <string name="movie_desc_hint">Description</string>
+    <string name="movie_imdb_hint">IMDB Page</string>
+    <string name="add_movie_button">Add to database</string>
+    <string name="back_button">Back</string>
 </resources>
