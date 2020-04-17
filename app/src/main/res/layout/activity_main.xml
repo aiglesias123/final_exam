@@ -36,5 +36,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/app_title" />
+        tools:text="@string/app_title_text" />
 </androidx.constraintlayout.widget.ConstraintLayout>

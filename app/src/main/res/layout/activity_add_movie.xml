@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="49dp"
         android:ems="10"
+        android:hint="@string/movie_title_hint"
         android:inputType="textPersonName"
-        android:text="@string/movie_title_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addMovieText" />
@@ -35,8 +35,8 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="@string/movie_desc_hint"
         android:inputType="textMultiLine"
-        android:text="@string/movie_desc_hint"
         app:layout_constraintStart_toStartOf="@+id/movieTitle"
         app:layout_constraintTop_toBottomOf="@+id/movieTitle" />
 
@@ -46,8 +46,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="47dp"
         android:ems="10"
+        android:hint="@string/movie_imdb_hint"
         android:inputType="textPersonName"
-        android:text="@string/movie_imdb_hint"
         app:layout_constraintStart_toStartOf="@+id/movieDescription"
         app:layout_constraintTop_toBottomOf="@+id/movieDescription" />
 
@@ -55,20 +55,22 @@
         android:id="@+id/addMovieButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="213dp"
+        android:layout_marginBottom="218dp"
         android:onClick="onClickAddButton"
         android:text="@string/add_movie_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieImdbLink"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/backButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:onClick="onClickBackButton"
         android:text="@string/back_button"
         app:layout_constraintEnd_toEndOf="@+id/addMovieButton"

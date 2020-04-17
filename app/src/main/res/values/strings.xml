@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">final_exam</string>
-    <string name="app_title">Movie watch list app</string>
+    <string name="app_title_text">Movie watch list app</string>
     <string name="goto_add_movies_button">Add a movie</string>
     <string name="goto_view_movies_button">View movies</string>
     <string name="add_movie_text">Add movie:</string>
