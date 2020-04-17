@@ -1,5 +1,7 @@
 package com.example.final_exam;
 
+import androidx.annotation.NonNull;
+
 public class Movie {
     /**
      * Movie class for representing movies as database objects.
@@ -39,4 +41,10 @@ public class Movie {
         return imdbLink;
     }
 
+    @NonNull
+    @Override
+    public String toString() {
+        return String.format("Movie: %s, Description: %s, IMDB Link: %s",
+                             this.getTitle(), this.getDescription(), this.getImdbLink());
+    }
 }
